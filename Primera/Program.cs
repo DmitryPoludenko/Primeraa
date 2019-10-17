@@ -8,11 +8,14 @@ namespace Primera
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("If u want");
-            int i = 10;
+            int i;
             int j = 15;
-            for (i; i < j; i++)
+            for (i = 10 ; i < j; i++)
             {
-            Console.WriteLine(i);
+              
+                Random rnd = new Random();
+                
+                Console.WriteLine(rnd.Next(0, 50));
             }
             Console.ReadLine();
         }
