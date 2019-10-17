@@ -2,11 +2,16 @@
 
 namespace Primera
 {
-    class Program
+    class Program: Interface1
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+        }
+
+        public void Primer()
+        {
+            throw new NotImplementedException();
         }
     }
 }
