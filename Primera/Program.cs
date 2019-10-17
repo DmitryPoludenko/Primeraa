@@ -7,6 +7,7 @@ namespace Primera
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
 
         public void Primer()
