@@ -10,5 +10,7 @@ namespace Primera
         {
             throw new NotImplementedException();
         }
+        
+        Console.WriteLine("This is my own class!!!");
     }
 }
