@@ -18,6 +18,7 @@ namespace Primera
                 Console.WriteLine(rnd.Next(0, 50));
             }
             Console.ReadLine();
+            Console.WriteLine("Im on it!")
         }
 
         public void Primer()
