@@ -17,8 +17,13 @@ namespace Primera
                 
                 Console.WriteLine(rnd.Next(0, 50));
             }
+            
+            Console.WriteLine("Im on it!");
+
+            Evgeniy a = new Evgeniy();
+            a.Met();
+
             Console.ReadLine();
-            Console.WriteLine("Im on it!")
         }
 
         public void Primer()
