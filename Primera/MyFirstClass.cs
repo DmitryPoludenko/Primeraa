@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Primera
 {
-    class MyFirstClass
+    class MyFirstClass : Interface1
     {
+        void Primer()
+        {
+            Console.WriteLine("Primers!!!");
+        }
     }
 }
