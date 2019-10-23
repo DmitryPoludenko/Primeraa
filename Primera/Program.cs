@@ -1,11 +1,12 @@
 ﻿using System;
 
-namespace Primera
+namespace Example
 {
     class Program: Interface1
     {
         static void Main(string[] args)
         {
+            string evil = "Am I evil?";
             Console.WriteLine("Hello World!");
             Console.WriteLine("If u want");
             int i;
@@ -22,13 +23,9 @@ namespace Primera
 
             Evgeniy a = new Evgeniy();
             a.Met();
+            a.Stroka(evil);
 
             Console.ReadLine();
-        }
-
-        public void Primer()
-        {
-            throw new NotImplementedException();
         }
     }
 }

@@ -2,13 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Primera
+namespace Example
 {
     class MyFirstClass : Interface1
     {
-        void Primer()
+        public void Primer()
         {
             Console.WriteLine("Primers!!!");
         }
+        public string Stroka(string x)
+        {
+            return x;
+        }
+
     }
 }

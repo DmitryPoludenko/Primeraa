@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Primera
+namespace Example
 {
     class Evgeniy : Interface1
     {
         public void Primer()
         {
             throw new NotImplementedException();
+        }
+        public string Stroka(string x)
+        {
+            return x;
         }
         public void Met()
         {
