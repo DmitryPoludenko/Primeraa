@@ -27,5 +27,15 @@ namespace Example
 
             Console.ReadLine();
         }
+
+        void Interface1.Primer()
+        {
+            throw new NotImplementedException();
+        }
+
+        string Interface1.Stroka(string x)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
